@@ -9,4 +9,4 @@ Generally, the approach is conserve to Weirich's implmentation. The appropriate 
 
 3. To support non-English versions of Weirich's tutorial.
 ## Releases
-+ 1.0 The unpatched Gitimmersion tutorial as downloaded 2017-4-22.
++ 1.0 The unpatched Gitimmersion tutorial as downloaded 2017-4-30.
