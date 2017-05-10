@@ -1,0 +1,30 @@
+[submodule "repos/lab_05"]
+	path = repos/lab_05
+	url = /home/benrudgers/gitimmersion/repos/lab_05
+[submodule "repos/lab_10"]
+	path = repos/lab_10
+	url = /home/benrudgers/gitimmersion/repos/lab_10
+[submodule "repos/lab_15"]
+	path = repos/lab_15
+	url = /home/benrudgers/gitimmersion/repos/lab_15
+[submodule "repos/lab_20"]
+	path = repos/lab_20
+	url = /home/benrudgers/gitimmersion/repos/lab_20
+[submodule "repos/lab_30"]
+	path = repos/lab_30
+	url = /home/benrudgers/gitimmersion/repos/lab_30
+[submodule "repos/lab_40"]
+	path = repos/lab_40
+	url = /home/benrudgers/gitimmersion/repos/lab_40
+[submodule "repos/lab_50"]
+	path = repos/lab_50
+	url = /home/benrudgers/gitimmersion/repos/lab_50
+[submodule "repos/lab_45"]
+	path = repos/lab_45
+	url = /home/benrudgers/gitimmersion/repos/lab_45
+[submodule "repos/lab_35"]
+	path = repos/lab_35
+	url = /home/benrudgers/gitimmersion/repos/lab_35
+[submodule "repos/lab_25"]
+	path = repos/lab_25
+	url = /home/benrudgers/gitimmersion/repos/lab_25
