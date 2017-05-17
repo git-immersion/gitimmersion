@@ -1,0 +1,17 @@
+#+TITLE: transformations
+* Introduction
+This document contains a set of scripts to transform Git Immersion to be better hosted on Github.
+* Remove Google Analytics
+There is no reason to continue to call on Google analytics using Weirich's key. And little reason to contiue to use Google Analyitics at all since the goal is stability rather than modifications to increase engagement.
+#+BEGIN_SRC shell :noweb tangle :tangle remove-google-analytics.sh
+  <<remove-google-analytics>> ../index.html
+  <<remove-google-analytics>> ../html/lab_*html
+#+END_SRC
+
+#+RESULTS:
+
+** sed command
+#+NAME: remove-google-analytics
+#+BEGIN_SRC shell
+  sed -n '/<script type="text\/javascript">/,+9d'
+#+END_SRC
