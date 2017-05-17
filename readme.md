@@ -10,3 +10,7 @@ Generally, the approach is conserve to Weirich's implmentation. The appropriate 
 3. To support non-English versions of Weirich's tutorial.
 ## Releases
 + 1.0 The unpatched Gitimmersion tutorial as downloaded 2017-4-30.
+## Contributing
+Contributions are welcome. Please consider becoming a member of the Git-immersion organization.
+
+In keeping with the the intent of the conservation, please submit an issue for each change to Weirich's orginal work. This will allow people to know what was changed and why.
