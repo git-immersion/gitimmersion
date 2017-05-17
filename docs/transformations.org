@@ -15,3 +15,12 @@ There is no reason to continue to call on Google analytics using Weirich's key. 
 #+BEGIN_SRC shell
   sed -n '/<script type="text\/javascript">/,+9d'
 #+END_SRC
+
+* Update reference to index.html
+Version 2 of Git Immersion places index html in the root directory rather than the =html= subdirectory. This facilitates hosting using Github's /pages/ feature (placing index.html in the root of the repository is one of three options for hosting).
+
+** sed command
+#+BEGIN_SRC shell :tangle update-index-dot-html.sh
+  cd ..
+  sed -e 's/index\.html/\.\.\/index\.html/d' html/lab_*html
+#+END_SRC
